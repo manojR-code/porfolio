@@ -1,0 +1,2056 @@
+/*root color setting*/
+:root {
+    --colors: rgb(28, 27, 27);
+}
+
+/*Code Snippet*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(40, 40, 43);
+    font-family: "Raleway", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Code Snippet*/
+/*nav bar CSS code and logo*/
+.first-block {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 2vw;
+}
+
+.first-block .logo {
+    font-size: 2vmin;
+}
+
+.first-block nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.first-block nav li {
+    padding: 1vw;
+    text-transform: capitalize;
+    font-size: 2.5vmin;
+    font-family: "Raleway", sans-serif;
+}
+
+.first-block nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.first-block nav button {
+    padding: 1.5vmin 4vmin;
+    background-color: rgb(245, 173, 40);
+    border-radius: 10px;
+    border: 2px solid rgb(245, 173, 40);
+    font-size: 2vmin;
+    color: white;
+}
+
+.first-block .icon img {
+    width: 4.5vmin;
+    height: 4.5vmin;
+
+    display: none;
+}
+
+.first-block .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+/*end here of nav bar*/
+/*Second block after navbar start here*/
+.second-block {
+    width: 100%;
+    height: 90%;
+    overflow-x: hidden;
+}
+
+.menubar {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border: 1px solid;
+    border: rgb(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgb(255, 255, 255, 0);
+    position: absolute;
+    top: 0;
+    transform: translateX(100%);
+    transition: all 1.5s ease-in-out;
+    display: none;
+}
+
+.navbar1 {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar1 nav li {
+    color: white;
+    list-style: none;
+    padding: 4.5vmin;
+    font-size: 4.5vmin;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    align-items: center;
+}
+
+.navbar1 nav {
+    align-items: center;
+}
+
+.navbar1 nav button {
+    padding: 4.5vmin 7.6vmin;
+    background-color: rgb(245, 173, 40);
+    border-radius: 10px;
+    border: 2px solid rgb(245, 173, 40);
+    font-size: 4vmin;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar1 nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.menubar .close {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5.5vmin 5.4vmin;
+
+}
+
+.close h1 {
+    color: white;
+}
+
+.second-block .images {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.images img {
+    width: 33vmin;
+    height: 33vmin;
+    border-radius: 50%;
+}
+
+.second-block .name {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-block .name h1 {
+    font-size: 4vmin;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.second-block .desc {
+    width: 100%;
+    height: calc(100% - 45%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-me {
+    width: 100%;
+    height: 55%;
+}
+
+.second-block .about {
+    width: 100%;
+    height: 5%;
+    background-color: green;
+}
+
+.desc .para {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vmin;
+}
+
+.about-me {
+    width: 100%;
+    height: 25%;
+}
+
+.actual-about-me {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.actual-about-me>span {
+    text-indent: 20.5vmin;
+    color: white;
+    font-size: 3.4vmin;
+}
+
+.about-me .hor-bar {
+    width: 20%;
+    height: 5%;
+    background-color: rgb(245, 173, 40);
+    margin-left: 20.5vmin;
+    border-radius: 5px;
+}
+
+.para p {
+    font-size: 2.5vmin;
+    color: white;
+    line-height: 2.5vw;
+    font-family: "Raleway", sans-serif;
+    font-family: 200;
+
+}
+
+.para p span {
+    color: rgb(241, 199, 120);
+    font-family: "Raleway", sans-serif;
+}
+
+.para p::before {
+    content: "-";
+    background-color: rgb(245, 173, 40);
+    color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*page 2 CSS code*/
+.page2 {
+    width: 100%;
+    height: 100%;
+    background-color: var(--colors);
+    font-family: "Raleway", sans-serif;
+}
+
+.page2 .info {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vmin;
+    color: white;
+}
+
+.page2 .info h1 {
+    font-family: "Raleway", sans-serif;
+}
+
+.page2 .block {
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Block code*/
+.block .box1,
+.box2,
+.box3,
+.box4 {
+    width: 20vmin;
+    height: 15vmin;
+    border: 0px solid rgb(30, 20, 20);
+    border-radius: 5px;
+    margin: 0 1.9vmin;
+    box-shadow: 0px 0px 3px rgb(68, 63, 63);
+    background-color: rgb(58, 52, 52);
+
+}
+
+.box1>.images {
+    width: 100%;
+    height: 70%;
+    background-image: url('/Images/js.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.box1>.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2>.images {
+    width: 100%;
+    height: 70%;
+    background-image: url('/Images/java.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.box12>.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3>.images {
+    width: 100%;
+    height: 70%;
+    background-image: url('/Images/c-.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.box3>.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4>.images {
+    width: 100%;
+    height: 70%;
+    background-image: url('/Images/c-sharp.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.box4>.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box5>.images {
+    width: 100%;
+    height: 70%;
+    background-image: url('/Images/physics.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.box5>.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6>.images {
+    width: 100%;
+    height: 70%;
+    background-image: url('/Images/programing.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.box6>.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box7>.images {
+    width: 100%;
+    height: 70%;
+    background-image: url('/Images/letter-c.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.box7>.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box8>.images {
+    width: 100%;
+    height: 70%;
+    background-image: url('/Images/unity.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.box8>.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box9>.images {
+    width: 100%;
+    height: 70%;
+    background-image: url('/Images/html-5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.box9>.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box10>.images {
+    width: 100%;
+    height: 70%;
+    background-image: url('/Images/css-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.box10>.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box11>.images {
+    width: 100%;
+    height: 70%;
+    background-image: url('/Images/blockchain.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.box11>.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box12>.images {
+    width: 100%;
+    height: 70%;
+    background-image: url('/Images/website.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.box12>.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box13>.images {
+    width: 100%;
+    height: 70%;
+    background-image: url('/Images/mysql.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.box13>.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page2 .block-part-2 {
+    width: 100%;
+    height: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vmin;
+}
+
+.block-part-2 .box5,
+.box6,
+.box7,
+.box8 {
+    width: 20vmin;
+    height: 15vmin;
+    border: 0px solid rgb(30, 20, 20);
+    border-radius: 5px;
+    margin: 0 1.9vmin;
+    box-shadow: 0px 0px 3px rgb(68, 63, 63);
+    background-color: rgb(58, 52, 52);
+}
+
+.block-part-3 {
+    width: 100%;
+    height: 16%;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vmin;
+}
+
+.block-part-3 .box9,
+.box10,
+.box11 {
+    width: 20vmin;
+    height: 15vmin;
+    border: 0px solid rgb(30, 20, 20);
+    border-radius: 5px;
+    margin: 0 1.9vmin;
+    box-shadow: 0px 0px 3px rgb(68, 63, 63);
+    background-color: rgb(58, 52, 52);
+}
+
+.block-part-4 {
+    width: 100%;
+    height: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vmin;
+}
+
+.block-part-4 .box12,
+.box13 {
+    width: 20vmin;
+    height: 15vmin;
+    border: 0px solid rgb(30, 20, 20);
+    border-radius: 5px;
+    margin: 0 1.9vmin;
+    box-shadow: 0px 0px 3px rgb(68, 63, 63);
+    background-color: rgb(58, 52, 52);
+}
+
+.dots {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerdots {
+    width: 15%;
+    height: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.yellow {
+    margin: 1.2vmin 3vmin;
+    width: 1.5vmin;
+    height: 1.5vmin;
+    border-radius: 50%;
+    background-color: rgb(245, 173, 40);
+    opacity: 0.5;
+}
+
+/*pictures code start here*/
+.pictures {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 40, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pictures .por {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.por h1 {
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.pictures>.block {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-block-images {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-of-place,
+.images-of-place1,
+.images-of-place2 {
+    width: 70%;
+    height: 70%;
+    margin: 0 1vmin;
+}
+
+.images-of-place3,
+.images-of-place4,
+.images-of-place5 {
+    width: 70%;
+    height: 70%;
+    margin: 0 1vmin;
+}
+
+.images-of-place {
+    background-image: url("building-5535464_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.images-of-place .head{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images-of-place .btn{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.images-of-place .head h3{
+    color: white;
+}
+button{
+    padding: 1.5vmin 4vmin;
+    background-color: rgb(245, 173, 40);
+    border-radius: 3px;
+    border: 2px solid rgb(245, 173, 40);
+    font-size: 2vmin;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+.images-of-place1 {
+    background-image: url("computer-4795762_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 5px;
+    position: relative;
+}
+
+.images-of-place2 {
+    background-image: url("modern-4428919_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.second-block-images {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.images-of-place3 {
+    background-image: url("defile-8495836_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.images-of-place4 {
+    background-image: url("desk-593327_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.images-of-place5 {
+    background-image: url("speicherstadt-8008681_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.images-of-place1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.6;
+}
+
+.images-of-place1 .head {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 30px;
+}
+
+.head h3 {
+    font-size: 3.4vmin;
+    color: white;
+    z-index: 20px;
+    font-family: "Raleway", sans-serif;
+    opacity: 1;
+}
+
+.images-of-place1 .info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    transform: translateZ(40px);
+
+}
+
+.info p {
+    color: white;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.images-of-place1 button {
+    padding: 1vmin 4vmin;
+    background-color: rgb(245, 173, 40);
+    border-radius: 10px;
+    border: 2px solid rgb(245, 173, 40);
+    font-size: 2vmin;
+    color: white;
+}
+
+.view-more {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+.view-more .dots3 {
+    width: 20%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.view-more button {
+    padding: 1.5vmin 4vmin;
+    background-color: rgb(245, 173, 40);
+    border-radius: 3px;
+    border: 2px solid rgb(245, 173, 40);
+    font-size: 2vmin;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+/*pictures code end here*/
+/*Block code end here*/
+/*page 2 CSS code end here*/
+/*Second block after navbar end here*/
+/*page 3 CSS code start here*/
+.page3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page3>.block {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(68, 63, 63);
+}
+
+.page3>.info {
+    align-items: flex-start;
+    color: white;
+    width: 100%;
+    height: 8%;
+    z-index: 2.5vmin;
+}
+
+.page3>.info h1 {
+    font-family: "Raleway", sans-serif;
+    text-indent: 2.9vmin;
+}
+
+.upper-block {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-block {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sm-block,
+.sm-block1 {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bulb,
+.bulb1 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerbulb,
+.innerbulb1 {
+    width: 1.4vmin;
+    height: 1.4vmin;
+    background-color: rgb(245, 173, 40);
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px rgb(245, 173, 40);
+}
+
+.stick,
+.stick1 {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerstick,
+.innerstick1 {
+    width: 2%;
+    height: 70%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.content,
+.content1 {
+    width: 75%;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+.content>h3,
+.content1>h3 {
+    font-size: 2.2vmin;
+    line-height: 3.9vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}
+
+.title,
+.title1 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.5vmin;
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+}
+
+.bubbles {
+    width: 20%;
+    height: calc(100% - 78%);
+    flex-wrap: wrap;
+    margin: 0vmin 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerbubbles {
+    width: 2.5vmin;
+    height: 2.5vmin;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: rgb(245, 173, 40);
+
+}
+
+/*page 3 CSS code end here*/
+/*Page 4 CSS code start here*/
+.page4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 27, 27);
+
+}
+
+.first-half {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-half {
+    width: 30%;
+    height: 100%;
+
+}
+
+.right-half {
+    width: 10%;
+    height: 100%;
+    background-color: rgb(245, 173, 40);
+    border-radius: 10.4vmin 0vmin 0vmin 10.4vmin;
+}
+
+.left-half .head {
+    width: 100%;
+    height: 20%;
+    font-size: 2.5vmin;
+    color: white;
+    text-indent: 2vmin;
+}
+
+.left-half-inner {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.left-half-inner .bar {
+    width: 10%;
+    height: 2%;
+    background-color: rgb(245, 173, 40);
+    border-radius: 5px;
+    margin: 1.2vmin 2.8vmin;
+}
+
+.info>p>span {
+    color: rgb(245, 173, 40);
+    font-family: "Raleway", sans-serif;
+}
+
+.info p {
+    font-family: "Raleway", sans-serif;
+    font-size: 3vmin;
+    line-height: 2.5vmin;
+}
+
+.ceo {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.bar2 {
+    width: 5%;
+    height: 2%;
+    background-color: rgb(245, 173, 40);
+    border-radius: 5px;
+    margin: 1.2vmin 2.8vmin;
+}
+
+.names h3 {
+    color: white;
+    font-size: 2.4vmin;
+}
+
+.second-half {
+    width: 100%;
+    height: 70%;
+}
+
+.second-half-inner {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(58, 52, 52);
+    border-top: 2px solid rgb(245, 173, 40);
+    border-bottom: 2px solid rgb(245, 173, 40);
+}
+
+.end {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.bubless2 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.end>h1 {
+    font-size: 5.3vmin;
+}
+
+.st {
+    width: 100%;
+    height: 25%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.second-gmail-phone {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.gmail {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(28, 27, 27);
+    margin: 0 2.3vmin;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.gmail p {
+    font-family: "Raleway", sans-serif;
+}
+
+.phone p {
+    font-family: "Raleway", sans-serif;
+}
+
+.address p {
+    font-family: "Raleway", sans-serif;
+}
+
+.phone {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(28, 27, 27);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.address {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.actual-address {
+    width: 20%;
+    height: 45%;
+    background-color: rgb(28, 27, 27);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.ceo .names h3,
+span {
+    font-family: "Raleway", sans-serif;
+}
+
+/*Page 4 CSS code end here*/
+/*Responsive code of CSS*/
+@media (max-width:2600px) {
+    .info p {
+        font-size: 1.8vmin;
+        line-height: 2.5vmin;
+    }
+}
+
+@media (max-width:2495px) {
+    .right-half {
+        width: 40%;
+        height: 100%;
+        background-color: rgb(245, 173, 40);
+        border-radius: 10.4vmin 0vmin 0vmin 10.4vmin;
+    }
+
+    .info p {
+        font-size: 1.8vmin;
+    }
+}
+
+@media (max-width:2324px) {
+    .right-half {
+        width: 50%;
+        height: 100%;
+        background-color: rgb(245, 173, 40);
+        border-radius: 10.4vmin 0vmin 0vmin 10.4vmin;
+    }
+
+    .right-half {
+        width: 50%;
+        height: 100%;
+        background-color: rgb(245, 173, 40);
+        border-radius: 10.4vmin 0vmin 0vmin 10.4vmin;
+    }
+
+    .info p {
+        font-size: 2vmin;
+    }
+
+    .content,
+    .content1 {
+        width: 75%;
+        height: 100%;
+        color: white;
+    }
+
+    .content>h3,
+    .content1>h3 {
+        font-size: 2vmin;
+        line-height: 3.3vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Raleway", sans-serif;
+        font-weight: 200;
+    }
+}
+
+@media (max-width:1700px) {
+
+    .right-half {
+        width: 50%;
+        height: 70%;
+        background-color: rgb(245, 173, 40);
+        border-radius: 10.4vmin 0vmin 0vmin 10.4vmin;
+    }
+
+    .ceo {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .left-half {
+        width: 50%;
+        height: 100%;
+    }
+
+    .right-half {
+        width: 50%;
+        height: 100%;
+    }
+
+    .info p {
+        font-size: 2vmin;
+    }
+
+    .content,
+    .content1 {
+        width: 75%;
+        height: 100%;
+        color: white;
+    }
+
+    .content>h3,
+    .content1>h3 {
+        font-size: 2vmin;
+        line-height: 3.1vmin;
+        font-weight: 200;
+        display: flex;
+
+    }
+}
+
+@media (max-width:1210px) {
+    .actual-address {
+        width: 20%;
+        height: 45%;
+        background-color: rgb(28, 27, 27);
+        border-radius: 5px;
+        font-size: 1.6vmin;
+    }
+
+    .left-half-inner {
+        width: 100%;
+        height: 30%;
+    }
+
+    .para p {
+        font-size: 2.5vmin;
+        line-height: 3.4vmin;
+    }
+
+    .info p {
+        font-size: 1.9vmin;
+    }
+}
+
+@media (max-width:1000px) {
+    .por h1 {
+        font-size: 4.5vmin;
+    }
+
+    .view-more .dots3 {
+        width: 30%;
+        height: 60%;
+    }
+
+    .first-block-images {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-block-images {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pictures>.block {
+        width: 80%;
+        height: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-me .hor-bar {
+        width: 40%;
+        height: 5%;
+        background-color: rgb(245, 173, 40);
+        margin-left: 5.5vmin;
+        border-radius: 5px;
+    }
+
+    .actual-about-me>span {
+        text-indent: 4.5vmin;
+        color: white;
+        font-size: 4.4vmin;
+    }
+
+    .desc .para {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 80%;
+        height: 45%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1vmin;
+    }
+
+    .desc p {
+        line-height: 5.5vmin;
+    }
+
+    .about-me {
+        width: 100%;
+        height: 15%;
+    }
+
+    .st h1 {
+        font-size: 5.4vmin;
+    }
+
+    .actual-address {
+        width: 35%;
+        height: 45%;
+        background-color: rgb(28, 27, 27);
+        border-radius: 5px;
+    }
+
+    .gmail {
+        width: 35%;
+        height: 100%;
+        background-color: rgb(28, 27, 27);
+        margin: 0 2.3vmin;
+        border-radius: 5px;
+    }
+
+    .phone {
+        width: 35%;
+        height: 100%;
+        background-color: rgb(28, 27, 27);
+        border-radius: 5px;
+    }
+
+    .right-half {
+        width: 50%;
+        height: 90%;
+        background-color: rgb(245, 173, 40);
+        border-radius: 10.4vmin 0vmin 0vmin 10.4vmin;
+    }
+
+    .left-half-inner {
+        width: 100%;
+        height: 30%;
+    }
+
+    .left-half-inner .bar {
+        width: 40%;
+        height: 2%;
+        background-color: rgb(245, 173, 40);
+        border-radius: 5px;
+        margin: 1.2vmin 2.8vmin;
+    }
+
+    .info p {
+        font-size: 1.8vmin;
+    }
+
+    .innerstick,
+    .innerstick1 {
+        width: 2%;
+        height: 80%;
+        background-color: white;
+        border-radius: 2px;
+    }
+
+    .content,
+    .content1 {
+        width: 75%;
+        height: 100%;
+        color: white;
+    }
+
+    .content>h3,
+    .content1>h3 {
+        font-size: 2.2vmin;
+        line-height: 3.7vmin;
+        font-weight: 200;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title,
+    .title1 {
+        font-size: 2.5vmin;
+    }
+
+    .innerbulb,
+    .innerbulb1 {
+        width: 2.4vmin;
+        height: 2.4vmin;
+        background-color: rgb(245, 173, 40);
+        border-radius: 50%;
+        box-shadow: 1px 1px 5px rgb(245, 173, 40);
+    }
+
+    .sm-block,
+    .sm-block1 {
+        width: 10%;
+        height: 100%;
+    }
+
+    .page3>.info {
+        align-items: flex-start;
+        color: white;
+        width: 100%;
+        height: 8%;
+        z-index: 2.5vmin;
+        font-size: 3vmin;
+    }
+
+    .para p {
+        font-size: 2.2vmin;
+        line-height: 3.2vw;
+    }
+
+    .second-block .name h1 {
+        font-size: 4.5vw;
+    }
+
+    .first-block .logo {
+        font-size: 3vw;
+    }
+
+    .images img {
+        width: 45vmin;
+        height: 45vmin;
+        border-radius: 50%;
+    }
+
+    .block .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 20vmin;
+        height: 15vmin;
+        border: 0px solid rgb(30, 20, 20);
+        border-radius: 5px;
+        margin: 0 1.9vmin;
+        box-shadow: 0px 0px 3px rgb(68, 63, 63);
+        background-color: rgb(46, 42, 42);
+
+    }
+
+    .block-part-2 .box5,
+    .box6,
+    .box7,
+    .box8 {
+        width: 20vmin;
+        height: 15vmin;
+        border: 0px solid rgb(30, 20, 20);
+        border-radius: 5px;
+        margin: 0 1.9vmin;
+        box-shadow: 0px 0px 3px rgb(68, 63, 63);
+        background-color: rgb(58, 52, 52);
+    }
+
+    .page2 .block-part-2 {
+        width: 100%;
+        height: 17%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0vmin;
+    }
+
+    .block-part-3 .box9,
+    .box10,
+    .box11 {
+        width: 20vmin;
+        height: 15vmin;
+        border: 0px solid rgb(30, 20, 20);
+        border-radius: 5px;
+        margin: 0 1.9vmin;
+        box-shadow: 0px 0px 3px rgb(68, 63, 63);
+        background-color: rgb(58, 52, 52);
+    }
+
+    .block-part-3 {
+        width: 100%;
+        height: 17%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0vmin;
+    }
+
+    .block-part-4 .box12,
+    .box13 {
+        width: 20vmin;
+        height: 15vmin;
+        border: 0px solid rgb(35, 35, 35);
+        border-radius: 5px;
+        margin: 0 1.9vmin;
+        box-shadow: 0px 0px 3px rgb(68, 63, 63);
+        background-color: rgb(58, 52, 52);
+    }
+
+    .innerdots {
+        width: 40%;
+        height: 90%;
+    }
+
+    .yellow {
+        margin: 2.2vmin 4vmin;
+        width: 2vmin;
+        height: 2vmin;
+        border-radius: 50%;
+        background-color: rgb(245, 173, 40);
+        opacity: 0.5;
+    }
+}
+
+@media (max-width:500px) {
+    .about-me .hor-bar {
+        width: 40%;
+        height: 5%;
+        background-color: rgb(245, 173, 40);
+        margin-left: 4.5vmin;
+        border-radius: 5px;
+    }
+
+    .actual-about-me>span {
+        text-indent: 4.5vmin;
+        color: white;
+        font-size: 5.4vmin;
+    }
+
+    .innerstick,
+    .innerstick1 {
+        width: 2%;
+        height: 80%;
+        background-color: white;
+        border-radius: 2px;
+    }
+
+    .content,
+    .content1 {
+        width: 75%;
+        height: 100%;
+        color: white;
+    }
+
+    .content>h3,
+    .content1>h3 {
+        font-size: 2.5vmin;
+        line-height: 3.6vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title,
+    .title1 {
+        font-size: 2.5vmin;
+    }
+
+    .sm-block,
+    .sm-block1 {
+        width: 10%;
+        height: 100%;
+    }
+
+    .para p {
+        font-size: 3vw;
+        line-height: 2.5vw;
+    }
+
+    .block .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 20vmin;
+        height: 25vmin;
+        border: 0px solid rgb(30, 20, 20);
+        border-radius: 5px;
+        margin: 0 1.9vmin;
+        box-shadow: 0px 0px 3px rgb(68, 63, 63);
+        background-color: rgb(46, 42, 42);
+
+    }
+
+    .block-part-2 .box5,
+    .box6,
+    .box7,
+    .box8 {
+        width: 20vmin;
+        height: 25vmin;
+        border: 0px solid rgb(30, 20, 20);
+        border-radius: 5px;
+        margin: 0 1.9vmin;
+        box-shadow: 0px 0px 3px rgb(68, 63, 63);
+        background-color: rgb(58, 52, 52);
+    }
+
+    .page2 .block-part-2 {
+        width: 100%;
+        height: 17%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0vmin;
+    }
+
+    .block-part-3 .box9,
+    .box10,
+    .box11 {
+        width: 20vmin;
+        height: 25vmin;
+        border: 0px solid rgb(30, 20, 20);
+        border-radius: 5px;
+        margin: 0 1.9vmin;
+        box-shadow: 0px 0px 3px rgb(68, 63, 63);
+        background-color: rgb(58, 52, 52);
+    }
+
+    .block-part-3 {
+        width: 100%;
+        height: 17%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0vmin;
+    }
+
+    .block-part-4 .box12,
+    .box13 {
+        width: 20vmin;
+        height: 25vmin;
+        border: 0px solid rgb(30, 20, 20);
+        border-radius: 5px;
+        margin: 0 1.9vmin;
+        box-shadow: 0px 0px 3px rgb(68, 63, 63);
+        background-color: rgb(58, 52, 52);
+    }
+
+    .innerdots {
+        width: 40%;
+        height: 90%;
+    }
+
+    .yellow {
+        margin: 2.2vmin 4vmin;
+        width: 2vmin;
+        height: 2vmin;
+        border-radius: 50%;
+        background-color: rgb(245, 173, 40);
+        opacity: 0.5;
+    }
+}
+
+@media (max-width:650px) {
+    .images-of-place1 button {
+        padding: 1vmin 5vmin;
+        background-color: rgb(245, 173, 40);
+        border-radius: 10px;
+        border: 2px solid rgb(245, 173, 40);
+        font-size: 2vmin;
+        color: white;
+    }
+
+    .view-more .dots3 {
+        width: 30%;
+        height: 60%;
+    }
+
+    .por h1 {
+        color: white;
+        font-size: 5.5vmin;
+    }
+
+    .view-more button {
+        padding: 2.5vmin 6vmin;
+        background-color: rgb(245, 173, 40);
+        border-radius: 3px;
+        border: 2px solid rgb(245, 173, 40);
+        font-size: 2vmin;
+        color: white;
+        font-size: 3vmin;
+    }
+
+    .pictures>.block {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .images-of-place,
+    .images-of-place1,
+    .images-of-place2 {
+        width: 90%;
+        height: 80%;
+        margin: 0 2.4vmin;
+    }
+
+    .images-of-place3,
+    .images-of-place4,
+    .images-of-place5 {
+        width: 90%;
+        height: 80%;
+        margin: 0 1.4vmin;
+    }
+
+    .desc .para {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 80%;
+        height: 50%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1vmin;
+    }
+
+    .about-me {
+        width: 100%;
+        height: 15%;
+    }
+
+    .desc .para p {
+        line-height: 4.4vmin;
+    }
+
+    .st h1 {
+        font-size: 5.4vmin;
+    }
+
+    .actual-address {
+        width: 40%;
+        height: 45%;
+        background-color: rgb(28, 27, 27);
+        border-radius: 5px;
+        font-size: 2.6vmin;
+    }
+
+    .gmail {
+        width: 40%;
+        height: 100%;
+        background-color: rgb(28, 27, 27);
+        margin: 0 2.3vmin;
+        border-radius: 5px;
+        font-size: 2.6vmin;
+    }
+
+    .phone {
+        width: 40%;
+        height: 100%;
+        background-color: rgb(28, 27, 27);
+        border-radius: 5px;
+        font-size: 2.6vmin;
+    }
+
+    .right-half {
+        width: 50%;
+        height: 80%;
+        background-color: rgb(245, 173, 40);
+        border-radius: 10.4vmin 0vmin 0vmin 10.4vmin;
+    }
+
+    .innerstick,
+    .innerstick1 {
+        width: 2%;
+        height: 80%;
+        background-color: white;
+        border-radius: 2px;
+    }
+
+    .first-block .navbar nav {
+        display: none;
+    }
+
+    .first-block .navbar .icon img {
+        display: initial;
+        width: 5vmin;
+        height: 5vmin;
+    }
+
+    .images img {
+        width: 30vmin;
+        height: 30vmin;
+        border-radius: 50%;
+    }
+
+    .first-block .logo {
+        font-size: 2.5vmin;
+    }
+
+    .second-block .name h1 {
+        font-size: 4vmin;
+        color: white;
+    }
+
+    .para p {
+        font-size: 2.3vw;
+        line-height: 2.9vw;
+    }
+
+    .block .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 25vmin;
+        height: 18vmin;
+        border: 0px solid rgb(30, 20, 20);
+        border-radius: 5px;
+        margin: 0 1.9vmin;
+        box-shadow: 0px 0px 3px rgb(68, 63, 63);
+        background-color: rgb(46, 42, 42);
+
+    }
+
+    .block-part-2 .box5,
+    .box6,
+    .box7,
+    .box8 {
+        width: 25vmin;
+        height: 18vmin;
+        border: 0px solid rgb(30, 20, 20);
+        border-radius: 5px;
+        margin: 0 1.9vmin;
+        box-shadow: 0px 0px 3px rgb(68, 63, 63);
+        background-color: rgb(58, 52, 52);
+    }
+
+    .page2 .block-part-2 {
+        width: 100%;
+        height: 17%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0vmin;
+    }
+
+    .block-part-3 .box9,
+    .box10,
+    .box11 {
+        width: 25vmin;
+        height: 18vmin;
+        border: 0px solid rgb(30, 20, 20);
+        border-radius: 5px;
+        margin: 0 1.9vmin;
+        box-shadow: 0px 0px 3px rgb(68, 63, 63);
+        background-color: rgb(58, 52, 52);
+    }
+
+    .block-part-3 {
+        width: 100%;
+        height: 17%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0vmin;
+    }
+
+    .block-part-4 .box12,
+    .box13 {
+        width: 25vmin;
+        height: 18vmin;
+        border: 0px solid rgb(30, 20, 20);
+        border-radius: 5px;
+        margin: 0 1.9vmin;
+        box-shadow: 0px 0px 3px rgb(68, 63, 63);
+        background-color: rgb(58, 52, 52);
+    }
+
+    .innerdots {
+        width: 40%;
+        height: 90%;
+    }
+
+    .yellow {
+        margin: 2.2vmin 4vmin;
+        width: 2vmin;
+        height: 2vmin;
+        border-radius: 50%;
+        background-color: rgb(245, 173, 40);
+        opacity: 0.5;
+    }
+}
+
+@media (max-width:450px) {
+    .first-block .navbar nav {
+        display: none;
+    }
+
+    .first-block .navbar .icon img {
+        display: initial;
+        width: 8vmin;
+        height: 8vmin;
+    }
+
+    .images img {
+        width: 53vmin;
+        height: 53vmin;
+        border-radius: 50%;
+    }
+
+    .first-block .logo {
+        font-size: 3vmin;
+    }
+
+    .second-block .name h1 {
+        font-size: 6vmin;
+        color: white;
+    }
+
+    .para p {
+        font-size: 2.8em;
+        line-height: 3.7vw;
+    }
+
+}
+
+@media (max-height:340px) {
+    .images img {
+        width: 30vmin;
+        height: 30vmin;
+        border-radius: 50%;
+    }
+
+    .second-block .name h1 {
+        font-size: 4.6vmin;
+        color: white;
+    }
+
+    .para p {
+        font-size: 2vw;
+        line-height: 2.9vw;
+    }
+
+    .navbar1 nav button {
+        padding: 3.5vmin 6.6vmin;
+        background-color: rgb(245, 173, 40);
+        border-radius: 10px;
+        border: 2px solid rgb(245, 173, 40);
+        font-size: 4vmin;
+        color: white;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .close h1 {
+        font-size: 8.5vmin;
+        color: white;
+    }
+}
+
+/*Animation Placed on the variable called blink*/
+.name h1 span {
+    color: rgb(245, 173, 40);
+    animation: blink infinite 6s;
+    transition: all 1s ease-in-out;
+}
+
+/*Animation*/
+@keyframes blink {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
