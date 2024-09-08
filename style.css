@@ -319,7 +319,7 @@ nav li:hover {
 .box1>.images {
     width: 100%;
     height: 70%;
-    background-image: url('/Images/js.png');
+    background-image: url('js.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -336,7 +336,7 @@ nav li:hover {
 .box2>.images {
     width: 100%;
     height: 70%;
-    background-image: url('/Images/java.png');
+    background-image: url('java.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -353,7 +353,7 @@ nav li:hover {
 .box3>.images {
     width: 100%;
     height: 70%;
-    background-image: url('/Images/c-.png');
+    background-image: url('c-.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -370,7 +370,7 @@ nav li:hover {
 .box4>.images {
     width: 100%;
     height: 70%;
-    background-image: url('/Images/c-sharp.png');
+    background-image: url('c-sharp.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -386,7 +386,7 @@ nav li:hover {
 .box5>.images {
     width: 100%;
     height: 70%;
-    background-image: url('/Images/physics.png');
+    background-image: url('physics.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -402,7 +402,7 @@ nav li:hover {
 .box6>.images {
     width: 100%;
     height: 70%;
-    background-image: url('/Images/programing.png');
+    background-image: url('programing.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -417,7 +417,7 @@ nav li:hover {
 .box7>.images {
     width: 100%;
     height: 70%;
-    background-image: url('/Images/letter-c.png');
+    background-image: url('letter-c.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -432,7 +432,7 @@ nav li:hover {
 .box8>.images {
     width: 100%;
     height: 70%;
-    background-image: url('/Images/unity.png');
+    background-image: url('unity.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -447,7 +447,7 @@ nav li:hover {
 .box9>.images {
     width: 100%;
     height: 70%;
-    background-image: url('/Images/html-5.png');
+    background-image: url('html-5.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -477,7 +477,7 @@ nav li:hover {
 .box11>.images {
     width: 100%;
     height: 70%;
-    background-image: url('/Images/blockchain.png');
+    background-image: url('blockchain.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -492,7 +492,7 @@ nav li:hover {
 .box12>.images {
     width: 100%;
     height: 70%;
-    background-image: url('/Images/website.png');
+    background-image: url('website.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -507,7 +507,7 @@ nav li:hover {
 .box13>.images {
     width: 100%;
     height: 70%;
-    background-image: url('/Images/mysql.png');
+    background-image: url('mysql.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
