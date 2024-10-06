@@ -21,12 +21,6 @@ bob.append("yellow",11,app);//4*3 bubbles
 bob.append("yellow",2,bubbles)//2 bubbles only
 bob.append("yellow",3,bubbles1);//3 bubbles only
 bob.append("yellow",3,bubbles2)//
-document.querySelector('#under-test1').addEventListener('click',()=>{
-    alert("Under Testing Plaese Try Some Time Later")
-})
-document.querySelector('#under-test').addEventListener('click',()=>{
-    alert("Under Testing Plaese Try Some Time Later")
-})
 /* Menu bar code*/
 const ShowCase=()=>{
     document.querySelector('.icon').addEventListener('click',()=>{
