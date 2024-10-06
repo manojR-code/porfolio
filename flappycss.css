@@ -54,15 +54,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-.difficult{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px 0;
-}
 .menu-box {
     background-color: white;
     border-radius: 10px;
@@ -193,25 +184,6 @@ button {
 button:hover {
     background-color: #228B22; /* ForestGreen */
 }
-
-@media (max-width: 600px) {
-    .game-over-menu {
-        width: 80%;
-    }
-
-    h1 {
-        font-size: 2.5em;
-    }
-
-    p {
-        font-size: 1.2em;
-    }
-
-    button {
-        font-size: 1em;
-        padding: 10px 15px;
-    }
-}
 @media (max-width:1000px) {
     .block {
         background-image: url('flappy-bird-background-vnzm62ypakupicll.webp');
@@ -221,11 +193,6 @@ button:hover {
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: relative;
-    }
-    .menu-box{
-        width: 97%;
-        height: 28%;
-        border-radius: 5px;
     }
 }
 
@@ -238,5 +205,26 @@ button:hover {
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: relative;
+    }
+    h6{
+        font-size: 30px;
+    }
+    .game-over-menu {
+        width: 80%;
+    }
+    .start-button h3{
+        font-size: 10px;
+    }
+    .game-over-menu h1 {
+        font-size: 2.5em;
+    }
+
+    .game-over-menu p {
+        font-size: 1.2em;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 10px 15px;
     }
 }
