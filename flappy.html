@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="flappycss.css">
+<body>
+    <div class="block">
+        <div class="score">Score:<span>0</span></div>
+        <div class="flappy">
+            <img src="14f99aa93eae6ee19afcbc0e6c1ce3cd.png"  alt="">
+        </div>
+        <div class="pipes"></div>
+        <div class="downpipe"></div>
+        <div class="pipes1"></div>
+        <div class="downpipe2"></div>
+        <div class="start">
+            <div class="menu-box">
+                <h1>Select Difficulty</h1>
+                <div class="options">
+                    <button class="option one">Easy</button>
+                    <button class="option two">Medium</button>
+                    <button class="option three">Hard</button>
+                </div>
+                <button class="start-button">Start</button>
+            </div>
+    </div>
+    <div class="game-end" style="display: none;">
+        <div class="game-over-menu" id="gameOverMenu">
+            <h1>Game Over</h1>
+            <p>Your Score: <span id="score">0</span></p>
+            <p>High Score: <span id="Highs">Ninna Kaiyalli agalla</span></p>
+            <button id="restartButton">Restart</button>
+        </div>
+    </div>
+   
+</body>
+<script src="flappyjs.js"></script>
+</html>

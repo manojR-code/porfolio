@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+.score {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    transform: translateZ(20px);
+    left: 0;
+}
+
+.block {
+    background-image: url('flappy-bird-background-vnzm62ypakupicll.webp');
+    width: 30%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.flappy {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.flappy img {
+    width: 150px;
+    height: 150px;
+}
+
+.start {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width: 85%;
+    height: 50%;
+    border-radius: 5px;
+    background-color: white;
+}
+.difficult{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.menu h3{
+    font-size: 25px;
+    padding: 5px 100px;
+    margin-top: 10px;
+    color: black;
+    border: 2px solid black;
+}
+.menu-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.option {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #0056b3;
+}
+
+.start-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #218838;
+}
+.pipes {
+    width: 100px;
+    height: 30%;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    color: transparent;
+}
+
+.downpipe {
+    width: 100px;
+    height: 30%;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.pipes1 {
+    width: 100px;
+    height: 45%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: -300px;
+}
+
+.downpipe2 {
+    width: 100px;
+    height: 40%;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    right: -300px;
+}
+/*Over game*/
+.game-end{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-over-menu {
+    position: absolute;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid #FFD700; /* Gold color */
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #FF4500; /* OrangeRed */
+    font-size: 3em;
+    margin: 0 0 10px;
+}
+
+p {
+    font-size: 1.5em;
+    color: #333;
+    margin: 10px 0;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #32CD32; /* LimeGreen */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #228B22; /* ForestGreen */
+}
+
+@media (max-width: 600px) {
+    .game-over-menu {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+}
+@media (max-width:1000px) {
+    .block {
+        background-image: url('flappy-bird-background-vnzm62ypakupicll.webp');
+        width: 70%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+    }
+    .menu-box{
+        width: 97%;
+        height: 30%;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width:600px) {
+    .block {
+        background-image: url('flappy-bird-background-vnzm62ypakupicll.webp');
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+    }
+}
